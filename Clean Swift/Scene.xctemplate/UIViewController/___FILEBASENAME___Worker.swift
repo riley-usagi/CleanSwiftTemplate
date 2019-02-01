@@ -1,5 +1,5 @@
 import UIKit
-import magic
+import Magic
 
 class ___VARIABLE_sceneName___Worker {
   func doSomeWork() {
