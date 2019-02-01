@@ -1,5 +1,5 @@
 import UIKit
-import MAgic
+import Magic
 
 enum ___VARIABLE_sceneName___ {
   
