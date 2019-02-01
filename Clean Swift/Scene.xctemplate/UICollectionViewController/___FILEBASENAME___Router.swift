@@ -1,14 +1,6 @@
 import UIKit
 import Magic
 
-@objc protocol ___VARIABLE_sceneName___RoutingLogic {
-  //func routeToSomewhere(segue: UIStoryboardSegue?)
-}
-
-protocol ___VARIABLE_sceneName___DataPassing {
-  var dataStore: ___VARIABLE_sceneName___DataStore? { get }
-}
-
 class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
   weak var viewController: ___VARIABLE_sceneName___ViewController?
   var dataStore: ___VARIABLE_sceneName___DataStore?
@@ -43,4 +35,12 @@ class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingL
   //{
   //  destination.name = source.name
   //}
+}
+
+@objc protocol ___VARIABLE_sceneName___RoutingLogic {
+  //func routeToSomewhere(segue: UIStoryboardSegue?)
+}
+
+protocol ___VARIABLE_sceneName___DataPassing {
+  var dataStore: ___VARIABLE_sceneName___DataStore? { get }
 }
