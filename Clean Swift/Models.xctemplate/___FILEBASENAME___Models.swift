@@ -5,10 +5,16 @@ enum ___VARIABLE_sceneName___ {
   
   enum Something {
     
-    struct Request {}
+    struct Request {
+      
+    }
     
-    struct Response {}
+    struct Response {
+      
+    }
     
-    struct ViewModel {}
+    struct ViewModel {
+      
+    }
   }
 }
