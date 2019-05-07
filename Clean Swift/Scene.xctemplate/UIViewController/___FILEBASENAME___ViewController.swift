@@ -1,10 +1,6 @@
 import UIKit
 import Magic
 
-protocol ___VARIABLE_sceneName___DisplayLogic: class {
-  func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel)
-}
-
 class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_sceneName___DisplayLogic {
   var interactor: ___VARIABLE_sceneName___BusinessLogic?
   var router: (NSObjectProtocol & ___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
@@ -64,4 +60,8 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_scen
   func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel) {
     //nameTextField.text = viewModel.name
   }
+}
+
+protocol ___VARIABLE_sceneName___DisplayLogic: class {
+  func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel)
 }
